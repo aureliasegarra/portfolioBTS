@@ -11,7 +11,7 @@
   </head>
 
   <body style="background-color: #23153C;">
-    <nav class="navbar fixed-top navbar-expand-xl navbar-dark">
+    <nav class="navbar mx-4 my-4 fixed-top navbar-expand-xl navbar-dark">
         <a href="#" class="navbar-brand mb-0 h1">Navbar</a>
         <button 
             type="button" 
@@ -27,26 +27,35 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a href="#" class="nav-link active">Home</a>
+                    <a href="#" class="nav-link active">HOME</a>
                 </li>
                 <li class="nav-item active">
-                    <a href="#" class="nav-link">Projects</a>
+                    <a href="#" class="nav-link">PROJECTS</a>
                 </li>
                 <li class="nav-item active">
                     <a href="#" class="nav-link">CV</a>
                 </li>
                 <li class="nav-item active">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#" class="nav-link">CONTACT</a>
                 </li>
             </ul>
         </div>
     </nav>
-        
-        
-    
-
-
-
+    <div id="vanta-canvas"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js" integrity="sha512-au5zlskyQcIGWsL+hWwp6NchmTWSK7UF84uGi2Vr+41wT/TE4oGyVvPzdxyZ2+7ms+8W2NfnsrmfcDaVQYekAA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        VANTA.NET({
+        el: "#vanta-canvas",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00
+        })
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
