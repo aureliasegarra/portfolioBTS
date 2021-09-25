@@ -3,9 +3,16 @@
     height: 100vh;
 }
 
+#vanta-canvas {
+    position: absolute;
+
+}
 
 .title, .subtitle {
     color: rgb(233, 232, 232);
-    text-align: center;
+    position: relative;
+    left: 150px;
+    top: 200px;
+    
     
 }
