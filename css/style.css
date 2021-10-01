@@ -51,6 +51,11 @@ body {
     text-align: center;
 }
 
+.resume-title {
+    color: white;
+    text-align: center;
+}
+
 .projects-image {
     width: 40%;
     margin: 10px;
