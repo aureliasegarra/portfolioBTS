@@ -67,6 +67,12 @@ h1 {
     }
 }
 
+.cv-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
 footer {
     position: sticky;
     top: 100%;
