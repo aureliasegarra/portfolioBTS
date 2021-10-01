@@ -71,6 +71,10 @@ body {
     margin: 100px;
 }
 
+.form-wrapper {
+    margin-top: 100px;
+}
+
 .contact-in {
     width: 80%;
     height: auto;
