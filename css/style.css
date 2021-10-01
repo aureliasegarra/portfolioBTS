@@ -38,6 +38,21 @@ body {
 
 h1 {
     color: white;
+    text-align: center;
+}
+
+.wrapper-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.projects-image {
+    width: 40%;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 footer {
