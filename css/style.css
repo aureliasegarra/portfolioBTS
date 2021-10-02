@@ -32,12 +32,6 @@ body {
     left: 20%;
 }
 
-.text-footer {
-    font-size: 9px;
-    color: white;
-}
-
-
 .wrapper-projects {
     display: flex;
     flex-wrap: wrap;
@@ -167,4 +161,46 @@ body {
 footer {
     position: sticky;
     top: 100%;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-footer {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.text-footer span{
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #e6356a;
+    text-transform: uppercase;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socials li {
+    margin-right: 20px;
+}
+
+.socials li i {
+    color: white;
+    font-size: 20px;
+}
+
+.socials li i:hover {
+    color: #e6356a;
+    transition: color .4s ease;
+    
 }
