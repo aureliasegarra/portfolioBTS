@@ -165,23 +165,26 @@ footer {
 
 .footer-wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding-top: 20px;
 }
 
 .text-footer {
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     color: white;
+    padding-top: 10px;
 }
-.text-footer span{
-    font-size: 12px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    letter-spacing: 1px;
-    color: #e6356a;
-    text-transform: uppercase;
+
+.text-container {
+    background-color: rgb(18, 17, 17);
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .socials {
@@ -200,7 +203,30 @@ footer {
 }
 
 .socials li i:hover {
+    transform: scale(1.1);   
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    opacity: 0.4;
+}
+
+.menu li a:hover {
     color: #e6356a;
-    transition: color .4s ease;
     
 }
